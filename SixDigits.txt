@@ -32,7 +32,7 @@
 
 
 3.プライバシーポリシーの掲示場所
-・https://github.com/saltpp/saltpp.github.io/blob/master/SixDigits.txt に掲示
+・https://saltpp.github.io/SixDigits.txt に掲示
 
 
 4.利用者関与の方法
@@ -97,7 +97,7 @@ http://www.taosoftware.co.jp/android/android_privacy_policy/
 
 
 3.Location of showing privacy policy
-  https://github.com/saltpp/saltpp.github.io/blob/master/SixDigits.txt
+  https://saltpp.github.io/SixDigits.txt
 
 
 4.Method of user involvement
