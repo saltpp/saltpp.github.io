@@ -1,0 +1,119 @@
+1.アプリケーション名 / 提供者名
+
+　Six Digits / Salt (塩野 智樹)
+
+
+2.アプリケーションで取り扱う利用者情報
+
+・項目
+　AAID (Android 広告 ID)
+　(http://www.androiddocs.com/google/play-services/id.html)
+
+・取得方法
+　以下の広告 SDK が、内部で API を使用して取得しています。
+　　・Google Mobile Ads SDK
+　これ以外の部分で AAID を使用することはありません。
+　設定→Google→広告→広告ID
+　で、取得される ID を確認できます。
+
+・利用目的
+　広告 SDK が、AAID を広告掲載とユーザーの分析に使用します。
+
+・同意取得の方法
+　現状では同意を取得していないです。
+
+・その他
+　設定→Google→広告→広告IDをリセット
+　で、AAID をリセットできます。
+　リセットすることで AAID に紐づいていた情報を無効にすることができます。
+　設定→Google→広告→広告のカスタマイズをオプトアウトする
+　で、AAID を使用しないように設定することもできます。
+　これは全てのアプリで有効な設定です。
+
+
+3.プライバシーポリシーの掲示場所
+・https://saltpp.github.io/SixDigits.txt に掲示
+
+
+4.利用者関与の方法
+・広告に利用される情報の利用者関与
+　・取得の中止：アプリケーションをアンインストールすることで可能です。
+　・利用の中止：設定→Google→広告→広告のカスタマイズをオプトアウトする
+　　　　　　　　で、AAID を使用しないように設定することが可能です。
+
+
+5.外部送信・第三者提供・情報モジュールの有無
+
+・外部送信・第三者提供
+　以下の広告 SDK が扱う提供先以外に第三者提供することはありません。
+　・Google Mobile Ads SDK
+
+・情報収集モジュール
+　上記の広告 SDK 以外は組み込んでいません。
+
+
+6.問い合わせ窓口
+　saltpp@gmail.com, Tomoki Shiono
+
+
+7.プライバシーポリシーの変更について
+「同意取得」が必要な、重要なプライバシーポリシーの変更はアプリケーション内でポップアップ表示させ再度「同意取得」致します。
+「同意取得」が必要ないプライバシーポリシーの変更に関しては、弊社サイトで告知を致します
+
+
+8.その他
+このドキュメントは、Apatch License2 (http://www.apache.org/licenses/LICENSE-2.0) で公開されている
+「アンドロイドスマートフォンプライバシーガイドライン by タオ」
+http://www.taosoftware.co.jp/android/android_privacy_policy/
+を参考にさせていただきました。
+
+
+1.Application Name / Publisher
+
+  Six Digits / Salt (Tomoki Shiono)
+
+
+2.User information that is treated in this application
+
+  - User information
+    - AAID (Android Advertising ID)
+      (http://www.androiddocs.com/google/play-services/id.html)
+
+  - The way to get the information
+    The following advertising SDK gets the AAID by using API. 
+      - Google Mobile Ads SDK
+    Other modules than above don't use the AAID.
+    You can confirm the AAID by Settings --> Google --> Ads --> Your advertising ID
+
+  - Purpose of use
+    It is used for advertising and user analytics.
+
+  - Method of acquiring consent
+    As of now this application doesn't obtain consent.
+
+  - Others
+    You can reset AAID by Settings --> Google --> Ads --> Reset advertising ID
+    You can opt out by Settings --> Google --> Ads --> Opt out of Ads Personalization
+
+
+3.Location of showing privacy policy
+  https://saltpp.github.io/SixDigits.txt
+
+
+4.Method of user involvement
+  - User involvement of information used for advertisement
+    - To stop getting the AAID: It is possible by uninstalling this app
+    - To stop using the AAID: It is possible by Settings --> Google --> Ads --> Opt out of Ads Personalization
+
+
+5.External transmission, Third party provision, Information collection module
+  - External transmission, Third party provision
+    This application never use the AAID except for the following advertising SDK
+      - Google Mobile Ads SDK
+
+  - Information collection module
+    This application doesn't use modules except for above module.
+
+
+6.Contact
+  saltpp@gmail.com, Tomoki Shiono
